@@ -1,8 +1,8 @@
 // Delete posts from a group wall, including by post content and by author name.
 var rbx = require('roblox-js');
 var ProgressBar = require('progress');
-var username = '';
-var password = '';
+var username = 'process.env.USER_NAME';
+var password = 'process.env.PASS_WORD';
 var group = 0;
 
 rbx.login(username, password)
