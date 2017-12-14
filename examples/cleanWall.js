@@ -3,7 +3,7 @@ var rbx = require('roblox-js');
 var ProgressBar = require('progress');
 var username = 'process.env.USER_NAME';
 var password = 'process.env.PASS_WORD';
-var group = 0;
+var group = 'process.env.GROUP_ID';
 
 rbx.login(username, password)
 .then(function () {
